@@ -1,0 +1,153 @@
+/* index.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 2rem;
+    background-color: #fdf3e3;
+  }
+  
+  h1, h2 {
+    color: #333;
+    text-align: center;
+  }
+  
+  h1 {
+    color: orange;
+    font-size: 48px;
+    text-transform: uppercase;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .tagline {
+    text-align: center;
+    font-style: italic;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  .menu {
+    padding: 20px;
+  }
+  
+  .menu-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two-column layout */
+    gap: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .pizza {
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+  }
+  
+  .pizza-image {
+    width: 100px;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .pizza-info {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .pizza-info h2 {
+    font-size: 16px;
+    margin: 0;
+    font-weight: bold;
+    text-align: left;
+  }
+  
+  .pizza-info p {
+    font-size: 12px;
+    font-weight: lighter;
+    color: #555;
+    margin: 0;
+  }
+  
+  .pizza-price {
+    font-size: 12px;
+    font-weight: lighter;
+    margin-left: auto;
+  }  
+  
+  .header {
+    text-align: center;
+  }
+  
+  .logo {
+    width: 100px; /* Adjust the width as needed */
+    height: auto;
+  }  
+
+  .footer {
+    margin-top: 20px;
+    text-align: center;
+    font-weight: bold;
+    padding: 20px;
+  }
+  
+  .footer button {
+    background-color: #d4a017;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .footer button:hover {
+    background-color: #b18e14;
+  }
+  
+/* Style specifically for the "Our Menu" heading */
+.menu-heading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px; /* Space between the bars and the text */
+    margin-bottom: 20px;
+  }
+  
+  .menu-heading h2 {
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #333;
+    margin: 0;
+  }
+  
+  .search-bar {
+    display: block;
+    width: 100%;
+    max-width: 300px;
+    padding: 10px;
+    margin: 10px auto 20px; /* Center-align with spacing */
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .search-container {
+    position: relative;
+    width: 100%;
+    max-width: 300px;
+    margin: 10px auto 20px; /* Center align */
+  }
+  
+  .search-icon {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: orange;
+    font-size: 16px;
+  }
